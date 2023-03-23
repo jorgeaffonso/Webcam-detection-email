@@ -3,8 +3,11 @@ from email.message import EmailMessage
 import imghdr
 
 PASSWORD = "cvkkstapumgxslrq"
+
+# Send email to myself
 SENDER = "jorgemail.affonso@gmail.com"
 RECEIVER = "jorgemail.affonso@gmail.com"
+
 def send_email(image_path):
     email_message = EmailMessage()   # Act as a dictionary
     email_message["Subject"] = "New costumer showed up!"

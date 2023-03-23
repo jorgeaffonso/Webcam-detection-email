@@ -1,4 +1,6 @@
 
+## What this program does
+
 O programa detecta a presença de um objeto, guarda essa imagem e a envia por email.
 
 O programa começa a armazenar imagens no diretório "images" quando reconhece e coloca o objeto no retângulo.

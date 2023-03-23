@@ -74,4 +74,4 @@ video.release()
 
 clean_thread.start()
 
-time.sleep(2)
+time.sleep(2)       # add to wait the clean up the diretory
